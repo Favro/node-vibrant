@@ -9,8 +9,8 @@
     "example": "examples"
   },
   "dependencies": {
-    "@jimp/custom": "^0.16.1",
-    "@jimp/plugin-resize": "^0.16.1",
+    "@jimp/custom": "file:../jimp/packages/custom",
+    "@jimp/plugin-resize": "file:../jimp/packages/plugin-resize",
     "@jimp/types": "file:../jimp/packages/types",
     "@types/lodash": "^4.14.53",
     "@types/node": "^18.0.0",
